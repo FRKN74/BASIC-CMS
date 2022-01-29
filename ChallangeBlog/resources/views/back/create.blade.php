@@ -1,5 +1,6 @@
 @extends('head')
 @include('head')
+@section('title','Detaylar')
 <body>
     @include('navbar')
 
@@ -24,7 +25,7 @@
                 <form action="{{ route('createPost') }}" method="POST" enctype="multipart/form-data">
                     @csrf
                     <div class="input-group mb-3">
-                        <input type="text" name="title" class="form-control" placeholder="Title"/>
+                        <input type="text" name="title" class="form-control" placeholder="Başlık"/>
                     </div>
                     <div class="input-group mb-3">
                         <input type="text" name="name" class="form-control" placeholder="Ad soyad"/>
