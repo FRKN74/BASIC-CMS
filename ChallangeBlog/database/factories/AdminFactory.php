@@ -20,8 +20,8 @@ class AdminFactory extends Factory
     {
 
         return [
-            'name' =>'Furkan ERPAY',
-            'email' => 'furkan74er@deneme.com',
+            'name' =>'Deneme Deneme',
+            'email' => 'deneme@deneme.com',
             'password' => Hash::make(102030),
         ];
     }

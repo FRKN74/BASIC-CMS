@@ -33,7 +33,7 @@
                         <input type="file" name="image" class="form-control"/>
                     </div>
                     <div class="input-group mb-3">
-                        <textarea name="description" id="editor" rows="5" class="form-control" placeholder="Makale yazısı"></textarea>
+                        <textarea name="description" rows="5" class="form-control" placeholder="Makale yazısı"></textarea>
                     </div>
 
                     <button class="btn btn-outline-success">Oluştur</button>
